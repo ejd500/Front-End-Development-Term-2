@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    text-align: center;
+}
+
+header{
+    background-color: lightgray;
+    height: 100px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 35px 0px;
+}
+
+.navbutton{
+    background-color: lightgray;
+    font-family: 'Avenir Light';
+    font-size: 14pt;
+    color: black;
+}
+nav a:link{
+    text-decoration: none;
+    color: black;
+}
+nav a:visited{
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    text-decoration: none;
+    color: blue;
+}
+
+h1{
+    margin: 0px 30px;
+    /* border: 1px solid red; */
+    margin:20px;
+}
+
+p{
+    text-align: left;
+}
+
+section{
+    /* border: 1px solid red; */
+    padding: 0px 30px;
+}
+
+ol{
+    text-align: left;
+    margin-left: 20px;
+    /* border: 1px solid red; */
+}
+
+li{
+    margin-bottom: 15px;
+}
+.center{
+    text-align: center;
+}
+table{
+    text-align: left;
+}
+
+td{
+    padding: 3px 30px;
+}
+.table-container{
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid blue; */
+}
+
+.grey{
+    background-color: lightgray;
+}
+
+#distribution{
+    border: 1px solid black;
+}
+.aside{
+    float: left; 
+    margin-right:40px;
+    /* padding-top: 10px; */
+    /* border: 1px red solid; */
+    margin-top: 30px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+#topofpage{
+    width:200px;
+    float: left;
+    text-align: left;
+    margin: 10px;
+}
+#copyright{
+    width:200px;
+    float: right;
+    text-align: right;
+    margin: 10px;
+}
